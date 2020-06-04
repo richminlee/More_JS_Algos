@@ -22,11 +22,11 @@ function validAnagram(str1, str2){
     }
     let obj1 = {};
     let obj2 = {};
-    for(let i of str1){
+    for(let i of str1){ 
         obj1[i] =  (obj1[i] || 0) +1;
     }
-    for(let i of str2){
-        obj2[i] =  (obj2[i] || 0) +1;
+    for(let i = 0; i < str2.length; i++){
+        obj2[str2[i]] ? obj2[str2[i]] += 1: obj2[str2[i]] = 1;
     }
     for(let key in obj1){
         if (!(key in obj2)){
