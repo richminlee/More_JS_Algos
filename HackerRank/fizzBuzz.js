@@ -15,5 +15,6 @@ function fizzBuzz(n) {
         }
     }
 return arr
+
 }
 console.log(fizzBuzz(15));

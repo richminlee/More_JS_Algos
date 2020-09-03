@@ -3,4 +3,4 @@ function recursiveRange(num){
     return num + recursiveRange(num-1);
 }
 console.log(recursiveRange(10));
-console.log(recursiveRange(6));
+// console.log(recursiveRange(6));

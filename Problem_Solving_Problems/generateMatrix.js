@@ -57,5 +57,5 @@ var generateMatrix = function(n) {
   return arr
 };
 
-console.log(generateMatrix(4))
+console.log(generateMatrix(3))
 
