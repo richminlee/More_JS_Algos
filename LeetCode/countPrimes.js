@@ -21,4 +21,4 @@ function CountPrimes(n)
     }
     return prime.length;
 }
-console.log(CountPrimes(10000));
+console.log(CountPrimes(499589));
